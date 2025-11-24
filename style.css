@@ -34,7 +34,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-inline: 2.5rem;
-
   margin-top: 3.75rem;
 }
 
@@ -54,6 +53,88 @@ body {
   color: #9aa0a8;
   margin-bottom: 15px;
   font-weight: 500;
+}
+
+/* Previsão por hora */
+
+.hourly-forecast-container {
+  border-radius: 2.5rem;
+  padding: 2.5rem;
+  background: linear-gradient(90.28deg, #007dfe 0.22%, #3aa2ff 99.76%);
+  box-shadow: 0px 30px 50px -19px rgba(1, 126, 254, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hourly-forecast-container .hour-weather-item > img {
+  width: 4.375rem;
+  height: 4.375rem;
+  margin-bottom: 0.625rem;
+}
+
+.hourly-forecast-container .hour-weather-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hourly-forecast-container .hour-weather-item > p:first-child {
+  color: #fff;
+  opacity: 55%;
+  font-weight: 500;
+}
+
+.hourly-forecast-container .hour-weather-item > p:last-child {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+/* Detalhes */
+
+.weather-details-container {
+  display: grid;
+  grid-template-columns: repeat(4, 13.75rem);
+  margin-top: 2.5rem;
+  column-gap: 0.9375rem;
+}
+
+.weather-details-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2.5rem;
+  padding: 1.875rem;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.weather-details-container .weather-details-item > p:first-child {
+  color: #8f8f8f;
+}
+
+.weather-details-container .weather-details-item > div {
+  display: flex;
+  align-items: center;
+}
+
+.weather-details-container .weather-details-item > div > p {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2a394f;
+  margin-left: 0.25rem;
+}
+
+.weather-details-container .weather-details-item > div > p > span {
+  font-size: 0.75rem;
+  margin-left: -0.3125rem;
+}
+
+.weather-details-container .weather-details-item > div > img {
+  width: 2.1875rem;
+  height: 2.1875rem;
 }
 
 /* Utilidades */
