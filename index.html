@@ -14,11 +14,29 @@
   </head>
   <body>
     <div class="app-container">
-      <header>
-        <div>
+      <div class="left-column">
+        <nav class="navbar-container">
           <img src="images/logo.svg" alt="Clima Hoje" />
-          <input type="text" />
+          <input
+            id="city"
+            name="city"
+            type="text"
+            placeholder="Busque por cidades"
+            class="custom-input"
+          />
+        </nav>
+        <div class="showcase-container">
+          <div class="showcase-text">
+            <h2>São Paulo</h2>
+            <p>Chance de chuva: 0%</p>
+            <h2>28°</h2>
+          </div>
+
+          <img src="images/sun.svg" alt="Sol com poucas nuvens" />
         </div>
+      </div>
+      <header>
+        <div></div>
       </header>
     </div>
   </body>

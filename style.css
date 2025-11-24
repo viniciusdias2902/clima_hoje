@@ -5,7 +5,72 @@
   font-family: "Poppins", sans-serif;
 }
 
-.app-container {
+html {
+  background-color: #e2eaf5;
+}
+
+body {
   max-width: 1440px;
+  margin: auto;
+}
+
+.app-container {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding: 2.5rem;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-container > img {
+  margin-right: 1.25rem;
+}
+
+.showcase-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 2.5rem;
+
+  margin-top: 3.75rem;
+}
+
+.showcase-container .showcase-text > h2:first-child {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: #2a394f;
+}
+
+.showcase-container .showcase-text > h2:last-child {
+  font-size: 5.125rem;
+  font-weight: 700;
+  color: #2a394f;
+}
+
+.showcase-container .showcase-text > p {
+  color: #9aa0a8;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+/* Utilidades */
+
+.custom-input {
+  border: none;
+  border-radius: 0.9375rem;
+  background-color: #fdfffe;
+  color: #232323;
+  padding: 1rem;
+  width: 100%;
+}
+
+.custom-input:focus {
+  outline: 2px solid #3aa2ff;
+}
+
+.custom-input::placeholder {
+  color: #b1b8c0;
 }
