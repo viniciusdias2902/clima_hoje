@@ -146,7 +146,7 @@ body {
   padding: 2.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1/875rem;
+  gap: 1.875rem;
 }
 
 .weekly-forecast-container .day-weather-item {
