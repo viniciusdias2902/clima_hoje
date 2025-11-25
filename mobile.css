@@ -1,0 +1,101 @@
+@media (max-width: 1024px) {
+  .app-container {
+    grid-template-columns: 100%;
+    padding: 1.25rem;
+    grid-row-gap: 1.25rem;
+  }
+
+  .weather-details-container {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.9375rem;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .navbar-container > img {
+    margin-right: 0;
+    margin-bottom: 0.625rem;
+  }
+
+  .showcase-container {
+    justify-content: center;
+    padding-inline: 0;
+  }
+
+  .showcase-container .showcase-text > h2:first-child {
+    font-size: 3rem;
+  }
+
+  .showcase-container .showcase-text > h2:last-child {
+    font-size: 2.5rem;
+  }
+
+  .showcase-container .showcase-text > p {
+    margin-bottom: 15px;
+    font-size: 0.625rem;
+  }
+
+  .showcase-container > img {
+    width: 11.25rem;
+  }
+
+  .hourly-forecast-container {
+    padding: 1.25rem;
+    gap: 1.875rem;
+    overflow-x: scroll;
+  }
+
+  .hourly-forecast-container .hour-weather-item > img {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .hourly-forecast-container .hour-weather-item > p:first-child {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  .hourly-forecast-container .hour-weather-item > p:last-child {
+    font-size: 1.5rem;
+  }
+
+  .weather-details-container .weather-details-item > p:first-child {
+    font-size: 0.875rem;
+  }
+
+  .weather-details-container .weather-details-item > div {
+    display: flex;
+    align-items: center;
+  }
+
+  .weather-details-container .weather-details-item > div > p {
+    font-size: 1.5rem;
+  }
+
+  .weather-details-container .weather-details-item > div > p > span {
+    font-size: 0.5rem;
+    margin-left: -2px;
+  }
+
+  .weather-details-container .weather-details-item {
+    padding: 1.5625rem;
+    min-height: 8.75rem;
+  }
+
+  .weekly-forecast-container .day-weather-item > div > p:first-child {
+    font-size: 0.875rem;
+  }
+
+  .weekly-forecast-container .day-weather-item > div > p:last-child {
+    font-size: 0.875rem;
+  }
+
+  .weekly-forecast-container .day-weather-item > p {
+    font-size: 0.925rem;
+  }
+}

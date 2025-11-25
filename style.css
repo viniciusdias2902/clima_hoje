@@ -168,6 +168,7 @@ body {
 .weekly-forecast-container .day-weather-item > div {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .weekly-forecast-container .day-weather-item > div > p:first-child {
